@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-left: 20px
+}
+
+.select {
+  width: 400px
+}
+
+.facility{
+  display: flex;
+}
+
+.content ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.content ul li {
+  list-style: none;
+  flex: 0 0 33.333333%;
+}
+
+.nurse {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px 0px;
+  width: 50px;
+  text-align: center;
+}
